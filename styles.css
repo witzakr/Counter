@@ -25,6 +25,12 @@ section h3 {
 section p{
   font-size: 200px;
   position: absolute;
+  text-shadow: 
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+  
 }
 
 @keyframes bounce {
