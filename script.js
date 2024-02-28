@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateCounter() {
         counterValue++;
         counterElement.textContent = counterValue;
+
+        var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        counterElement.style.color = randomColor;
+
     }
 
     setInterval(updateCounter, 1000);
