@@ -35,6 +35,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetchTranslations();
 
+    setInterval(()=>{
+        fetchTranslations()
+        updateCounter()
+    },1000)
+
     setInterval(fetchTranslations, 1000);
 
     setInterval(updateCounter, 1000);
