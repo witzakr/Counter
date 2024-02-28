@@ -50,3 +50,14 @@ Getting data from API
   - **Arabic**: "مرحبا بالعالم"
 - Fetching data from API function
   https://github.com/witzakr/Counter/blob/0cccb461409870052af6a46092892ab12c9c5074/script.js#L16-L25
+   - The syntax is basic for fetching JSON list, but there is one crucial part that stores the translation and chooses the right entry.
+    https://github.com/witzakr/Counter/blob/0cccb461409870052af6a46092892ab12c9c5074/script.js#L20
+
+- Update counter and text function
+https://github.com/witzakr/Counter/blob/0cccb461409870052af6a46092892ab12c9c5074/script.js#L29-L47
+  -  Generating random color hex code, 16777215 is equal to FFFFFF, so its able get every colour, 16777215 will change its fromat to hexadecimal (16) and with the "# +" will give us a colour to display
+    https://github.com/witzakr/Counter/blob/b284e1b843d5ad5868b6d851d0a32ab504b19870/script.js#L35
+
+- Setting the intervals
+https://github.com/witzakr/Counter/blob/b284e1b843d5ad5868b6d851d0a32ab504b19870/script.js#L55-L59
+Both text and numbers will get updated every second
